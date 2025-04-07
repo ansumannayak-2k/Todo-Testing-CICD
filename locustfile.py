@@ -5,5 +5,4 @@ class WebsiteUser(HttpUser):
 
     @task
     def load_test(self):
-        self.client.get("/course/dsa-in-python/?source=pwskills.com&position=course_dropdown&from=home_page")  # Replace with your actual API endpoint
-
+        self.client.get("course/devops-and-cloud-computing-course-JAN-Batch/67763fb09c7eb6fec2f20ecf/lesson/67ee6fa074ee33dbc16f2ca3/?lectureType=video&milestoneId=677651c79c7eb6fec2f23d69&sectionId=678b75ae2b28919111f6b55c")
